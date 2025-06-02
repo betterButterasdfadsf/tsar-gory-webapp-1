@@ -1,3 +1,6 @@
+const tg = window.Telegram.WebApp;
+tg.expand();
+
 let timeEl = document.getElementById('timer');
 let leaderEl = document.getElementById('leader');
 
